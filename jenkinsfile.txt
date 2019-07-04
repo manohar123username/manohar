@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!' 
-                copy manu4.txt manu3.txt
+                bat copy manu4.txt manu3.txt
             }
         }
     }
