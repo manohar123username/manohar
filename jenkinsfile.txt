@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Hello world!' 
                 bat 'copy manu4.txt manu3.txt'
-                bat 'echo.>manu50.txt' 
+                bat 'echo > manu50.txt' 
                
                             
 }
