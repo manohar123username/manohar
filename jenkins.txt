@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'in the build step code should be deployed on to the remote server'
+                
             }
         }
         stage('Test') {
