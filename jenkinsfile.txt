@@ -5,7 +5,8 @@ pipeline {
             steps {
                 echo 'Hello world!' 
                 bat 'copy manu4.txt manu3.txt'
-                bat 'net use * https://aspire01-tech-prtnr-na07-dw.demandware.net/on/demandware.servlet/webdav/Sites/Cartridges /user:manohar.akkamgari Manu.123@sandbox2'
+                bat 'echo.>manu50.txt' 
+               
                             
 }
         }
