@@ -1,0 +1,6 @@
+<!--- TEMPLATENAME: notEmpty.isml --->
+
+The parameter is not empty: it is 
+
+${pdict.paramOnPdict.value}
+

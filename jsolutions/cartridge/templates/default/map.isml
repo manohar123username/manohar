@@ -1,0 +1,5 @@
+<!--- TEMPLATENAME: map.isml --->
+${pdict.Length}
+<isloop items="${pdict.}" var="get">
+    ${get.}<br/>
+</isloop>

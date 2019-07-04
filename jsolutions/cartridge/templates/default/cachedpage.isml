@@ -1,0 +1,9 @@
+  <iscache type="relative" minute="30" />
+
+<h1>
+
+  <isprint value="${new Date()}" style="DATE_TIME" timezone="INSTANCE" />
+ 
+  
+</h1>
+ <iscomponent pipeline="Product-IncludeLastVisited" />
